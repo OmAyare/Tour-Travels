@@ -1,0 +1,183 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box; font-family: century Gothic;
+}
+
+header{
+    height: 100vh; 
+   
+}
+nav{
+    color: white;
+    background-color:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), ;
+    width: 100%; height:15vh;
+    display: flex; justify-content: space-between; 
+    align-items: center;
+    text-transform: uppercase;
+}
+nav .logo{
+    text-align: center; width: 25%; font-size: larger; font-weight: bolder;
+}
+
+nav .menu{
+    width: 40%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+   
+
+}
+.menu a:link {
+    text-decoration: none;
+    color: white;
+    margin:2px
+    
+  }
+  
+  .menu a:hover {
+    color:#deec1c;
+   
+  }
+  
+  .active {
+    color: rgb(0, 255, 234) !important;
+  }
+  main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+
+  section h3{
+    font-size: 35px; font-weight: 200px; letter-spacing:3px; margin-left: 30px;
+    text-shadow: 5px 5px 5px black;
+  }
+
+  section h1{
+    margin: 5px 0 15px 0;
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: 5px 5px 5px black;
+    text-transform: uppercase;
+  }
+
+  section p{
+    font-size: 25px;
+    word-spacing: 2px;
+    text-shadow: 5px 5px 5px black;
+    margin-bottom: 20px;
+  }
+
+ 
+
+  .btn1{
+    font-size: 15px;
+        padding: 5px 20px;
+        font-weight: bold;
+        color: rgb(62, 226, 172);
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        cursor: pointer;
+        border: none;
+        gap: 10px;
+  }
+
+  .btn2{
+    font-size: 15px;
+        padding: 5px 20px;
+        font-weight: bold;
+        color: #fff;
+        background : rgb(62, 226, 172);
+        border-radius: 10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        cursor: pointer;
+        border: none;
+        gap: 10px;
+  } 
+
+  .btn1:hover{
+    color:#fff;
+    background: rgb(62, 226, 172);
+  }
+
+  .btn2:hover{
+    color: rgb(62, 226, 172);
+    background : #fff;
+  }
+
+  .change_content::after
+  {
+    content:"";
+    animation : changetext 10s infinite linear;
+    color:rgb(62, 226, 172); 
+ }
+
+  @keyframes changetext{
+    0%{content: Mumbai;}
+    20%{content: Pune;}
+    35%{content: Kerala;}
+    66%{content: delhi;}
+    80%{content: Kedarnath;}
+    100%{content: Jaipur;}
+  }
+
+   .galcon{
+    float: left;
+    width:35rem;
+    height: 23rem;
+    margin-top: 25px;
+    border: 2px solid brown;
+   }
+   .right{
+     color: #0864ecf6;
+     font-weight: bolder;
+     text-decoration: underline;
+     text-align: right;
+     justify-content: space-around;
+     margin-right: 25px;
+     margin-top: 15rem;
+     text-shadow: 1px 3px 5px black;
+   }
+
+   .galconft{
+    float: right;
+    width:35rem;
+    height: 23rem;
+    margin-top: 25px;
+    border: 2px solid brown;
+   }
+  
+   .left{
+    color: #0864ecf6;
+     font-weight: bolder;
+     text-decoration: underline;
+     text-align: left;
+     justify-content: left;
+     margin-left: 25px;
+     margin-top: 15rem;
+     text-shadow: 1px 3px 5px black;
+       
+   }
+
+   .abcon{
+    margin: 15px 30px 15px 15px; text-shadow: 1px 1px 2px black;
+
+   }
+
+   .contactstyle{
+    width: 100%;
+    border: 5px solid #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 35px 5px 25px;
+    text-shadow: 2px 3px 5px black;
+   }
+
+
+
+   

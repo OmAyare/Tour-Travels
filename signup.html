@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Welcome To India
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+      <style>
+        header{
+          background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), url('./taj.jpg');
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+        }
+      </style>
+
+    </head>
+    <body>
+      
+
+        <header>
+            <nav>
+                <div class="logo">
+                  <h1 class="animate__animated animate__heartBeat">  Mera Bharat </h1>
+                </div>
+
+                
+                <div class="menu">
+                   
+                    <a href="index.html">Home</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                      
+                </div>
+             </nav>
+
+             <hr>
+             <br>
+             <form style="color:#fff; margin-left: 15px;"  novalidate >
+                <label> Name</label>
+                <input type="text"name="name"><br><br>
+                <label> Tel No.</label>
+                <input type="tel" name="tel"><br><br>
+                <label>Email ID</label>
+                <input type="email" name="emailid"><br><br>
+                <label> Reservation date</label>
+                <p>From</p><input type="datetime-local" name="resdate"><p>to</p><input type="datetime-local" name="toresdate"><br><br>
+                <label for="rooms">Choose a Room:</label>
+
+                    <select name="rooms" id="rooms">
+                      <option value="single">Single: A room assigned to one person</option>
+                      <option value="double">Double: A room assigned to two people</option>
+                      <option value="triple">Triple: A room that can accommodate three persons</option>
+                      <option value="Quad">Quad: A room assigned to four people</option>
+                    </select><br><br>
+
+                    <input type="submit" value="submit">
+
+
+
+             </form>
+
+
+          </header>
+       </body>
+</html>
